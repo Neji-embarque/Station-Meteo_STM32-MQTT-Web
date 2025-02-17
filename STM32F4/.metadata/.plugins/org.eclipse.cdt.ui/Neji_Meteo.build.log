@@ -1,0 +1,10 @@
+20:51:35 **** Incremental Build of configuration Debug for project Neji_Meteo ****
+make -j8 all 
+arm-none-eabi-size  Neji_Meteo.elf 
+   text	   data	    bss	    dec	    hex	filename
+  55872	    500	   4092	  60464	   ec30	Neji_Meteo.elf
+Finished building: default.size.stdout
+ 
+
+20:51:36 Build Finished. 0 errors, 0 warnings. (took 524ms)
+

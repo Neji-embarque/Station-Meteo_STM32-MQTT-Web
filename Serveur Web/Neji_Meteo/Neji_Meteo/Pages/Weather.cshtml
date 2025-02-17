@@ -1,0 +1,105 @@
+﻿@page
+@model Neji_Meteo.Pages.WeatherModel
+@{
+    ViewData["Title"] = "Données Météo";
+}
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Données Météo</h1>
+
+    <!-- Tableau des données météo -->
+    <div class="card shadow mb-4">
+        <div class="card-header bg-primary text-white">
+            <h5 class="card-title mb-0">Historique des mesures</h5>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th>Date et Heure</th>
+                            <th>Température (°C)</th>
+                            <th>Pression (hPa)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var data in Model.WeatherDataList)
+                        {
+                            <tr>
+                                <td>@data.Timestamp.ToString("dd/MM/yyyy HH:mm:ss")</td>
+                                <td>@data.Temperature.ToString("F2")</td>
+                                <td>@data.Pressure.ToString("F2")</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Graphique des données météo -->
+    <div class="card shadow mb-4">
+        <div class="card-header bg-success text-white">
+            <h5 class="card-title mb-0">Graphique des mesures</h5>
+        </div>
+        <div class="card-body">
+            <canvas id="weatherChart" width="400" height="200"></canvas>
+        </div>
+    </div>
+</div>
+
+<!-- Scripts pour Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    const ctx = document.getElementById('weatherChart').getContext('2d');
+    const weatherChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: @Html.Raw(Json.Serialize(Model.WeatherDataList.Select(d => d.Timestamp.ToString("HH:mm:ss")))),
+            datasets: [{
+                label: 'Température (°C)',
+                data: @Html.Raw(Json.Serialize(Model.WeatherDataList.Select(d => d.Temperature))),
+                borderColor: 'rgba(255, 99, 132, 1)',
+                backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                borderWidth: 2,
+                fill: true
+            }, {
+                label: 'Pression (hPa)',
+                data: @Html.Raw(Json.Serialize(Model.WeatherDataList.Select(d => d.Pressure))),
+                borderColor: 'rgba(54, 162, 235, 1)',
+                backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                borderWidth: 2,
+                fill: true
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: 'top',
+                },
+                title: {
+                    display: true,
+                    text: 'Évolution de la température et de la pression'
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    grid: {
+                        color: 'rgba(0, 0, 0, 0.1)',
+                    }
+                },
+                x: {
+                    grid: {
+                        color: 'rgba(0, 0, 0, 0.1)',
+                    }
+                }
+            },
+            animation: {
+                duration: 1000,
+                easing: 'easeInOutQuad'
+            }
+        }
+    });
+</script>

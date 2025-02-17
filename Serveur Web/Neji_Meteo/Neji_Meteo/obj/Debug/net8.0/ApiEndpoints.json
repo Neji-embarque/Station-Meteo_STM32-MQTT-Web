@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "Neji_Meteo.Controllers.WeatherController",
+    "Method": "Post",
+    "RelativePath": "api/Weather",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "Neji_Meteo.Models.WeatherData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Neji_Meteo.Controllers.WeatherController",
+    "Method": "Get",
+    "RelativePath": "api/Weather",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

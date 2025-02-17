@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nejit\\OneDrive\\Bureau\\Projets\\projet_stm32\\Station-Meteo_STM32-MQTT-Web\\Serveur Web\\Neji_Meteo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FAFC4A-7D83-4196-AFD2-A7DDA336386D}|Neji_Meteo\\Neji_Meteo.csproj|c:\\users\\nejit\\onedrive\\bureau\\projets\\projet_stm32\\station-meteo_stm32-mqtt-web\\serveur web\\neji_meteo\\neji_meteo\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FAFC4A-7D83-4196-AFD2-A7DDA336386D}|Neji_Meteo\\Neji_Meteo.csproj|solutionrelative:neji_meteo\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FAFC4A-7D83-4196-AFD2-A7DDA336386D}|Neji_Meteo\\Neji_Meteo.csproj|c:\\users\\nejit\\onedrive\\bureau\\projets\\projet_stm32\\station-meteo_stm32-mqtt-web\\serveur web\\neji_meteo\\neji_meteo\\pages\\weather.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1FAFC4A-7D83-4196-AFD2-A7DDA336386D}|Neji_Meteo\\Neji_Meteo.csproj|solutionrelative:neji_meteo\\pages\\weather.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FAFC4A-7D83-4196-AFD2-A7DDA336386D}|Neji_Meteo\\Neji_Meteo.csproj|c:\\users\\nejit\\onedrive\\bureau\\projets\\projet_stm32\\station-meteo_stm32-mqtt-web\\serveur web\\neji_meteo\\neji_meteo\\pages\\weather.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FAFC4A-7D83-4196-AFD2-A7DDA336386D}|Neji_Meteo\\Neji_Meteo.csproj|solutionrelative:neji_meteo\\pages\\weather.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FAFC4A-7D83-4196-AFD2-A7DDA336386D}|Neji_Meteo\\Neji_Meteo.csproj|c:\\users\\nejit\\onedrive\\bureau\\projets\\projet_stm32\\station-meteo_stm32-mqtt-web\\serveur web\\neji_meteo\\neji_meteo\\hubs\\weatherhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FAFC4A-7D83-4196-AFD2-A7DDA336386D}|Neji_Meteo\\Neji_Meteo.csproj|solutionrelative:neji_meteo\\hubs\\weatherhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FAFC4A-7D83-4196-AFD2-A7DDA336386D}|Neji_Meteo\\Neji_Meteo.csproj|c:\\users\\nejit\\onedrive\\bureau\\projets\\projet_stm32\\station-meteo_stm32-mqtt-web\\serveur web\\neji_meteo\\neji_meteo\\neji_meteo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B1FAFC4A-7D83-4196-AFD2-A7DDA336386D}|Neji_Meteo\\Neji_Meteo.csproj|solutionrelative:neji_meteo\\neji_meteo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FAFC4A-7D83-4196-AFD2-A7DDA336386D}|Neji_Meteo\\Neji_Meteo.csproj|c:\\users\\nejit\\onedrive\\bureau\\projets\\projet_stm32\\station-meteo_stm32-mqtt-web\\serveur web\\neji_meteo\\neji_meteo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FAFC4A-7D83-4196-AFD2-A7DDA336386D}|Neji_Meteo\\Neji_Meteo.csproj|solutionrelative:neji_meteo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherController.cs",
+              "DocumentMoniker": "C:\\Users\\nejit\\OneDrive\\Bureau\\Projets\\projet_stm32\\Station-Meteo_STM32-MQTT-Web\\Serveur Web\\Neji_Meteo\\Neji_Meteo\\Controllers\\WeatherController.cs",
+              "RelativeDocumentMoniker": "Neji_Meteo\\Controllers\\WeatherController.cs",
+              "ToolTip": "C:\\Users\\nejit\\OneDrive\\Bureau\\Projets\\projet_stm32\\Station-Meteo_STM32-MQTT-Web\\Serveur Web\\Neji_Meteo\\Neji_Meteo\\Controllers\\WeatherController.cs*",
+              "RelativeToolTip": "Neji_Meteo\\Controllers\\WeatherController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T18:56:37.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherHub.cs",
+              "DocumentMoniker": "C:\\Users\\nejit\\OneDrive\\Bureau\\Projets\\projet_stm32\\Station-Meteo_STM32-MQTT-Web\\Serveur Web\\Neji_Meteo\\Neji_Meteo\\Hubs\\WeatherHub.cs",
+              "RelativeDocumentMoniker": "Neji_Meteo\\Hubs\\WeatherHub.cs",
+              "ToolTip": "C:\\Users\\nejit\\OneDrive\\Bureau\\Projets\\projet_stm32\\Station-Meteo_STM32-MQTT-Web\\Serveur Web\\Neji_Meteo\\Neji_Meteo\\Hubs\\WeatherHub.cs",
+              "RelativeToolTip": "Neji_Meteo\\Hubs\\WeatherHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T18:42:27.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Neji_Meteo",
+              "DocumentMoniker": "C:\\Users\\nejit\\OneDrive\\Bureau\\Projets\\projet_stm32\\Station-Meteo_STM32-MQTT-Web\\Serveur Web\\Neji_Meteo\\Neji_Meteo\\Neji_Meteo.csproj",
+              "RelativeDocumentMoniker": "Neji_Meteo\\Neji_Meteo.csproj",
+              "ToolTip": "C:\\Users\\nejit\\OneDrive\\Bureau\\Projets\\projet_stm32\\Station-Meteo_STM32-MQTT-Web\\Serveur Web\\Neji_Meteo\\Neji_Meteo\\Neji_Meteo.csproj",
+              "RelativeToolTip": "Neji_Meteo\\Neji_Meteo.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-17T18:39:04.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Weather.cshtml",
+              "DocumentMoniker": "C:\\Users\\nejit\\OneDrive\\Bureau\\Projets\\projet_stm32\\Station-Meteo_STM32-MQTT-Web\\Serveur Web\\Neji_Meteo\\Neji_Meteo\\Pages\\Weather.cshtml",
+              "RelativeDocumentMoniker": "Neji_Meteo\\Pages\\Weather.cshtml",
+              "ToolTip": "C:\\Users\\nejit\\OneDrive\\Bureau\\Projets\\projet_stm32\\Station-Meteo_STM32-MQTT-Web\\Serveur Web\\Neji_Meteo\\Neji_Meteo\\Pages\\Weather.cshtml",
+              "RelativeToolTip": "Neji_Meteo\\Pages\\Weather.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAIwFgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-16T17:54:56.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nejit\\OneDrive\\Bureau\\Projets\\projet_stm32\\Station-Meteo_STM32-MQTT-Web\\Serveur Web\\Neji_Meteo\\Neji_Meteo\\Program.cs",
+              "RelativeDocumentMoniker": "Neji_Meteo\\Program.cs",
+              "ToolTip": "C:\\Users\\nejit\\OneDrive\\Bureau\\Projets\\projet_stm32\\Station-Meteo_STM32-MQTT-Web\\Serveur Web\\Neji_Meteo\\Neji_Meteo\\Program.cs",
+              "RelativeToolTip": "Neji_Meteo\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwCEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T12:11:16.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Weather.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\nejit\\OneDrive\\Bureau\\Projets\\projet_stm32\\Station-Meteo_STM32-MQTT-Web\\Serveur Web\\Neji_Meteo\\Neji_Meteo\\Pages\\Weather.cshtml.cs",
+              "RelativeDocumentMoniker": "Neji_Meteo\\Pages\\Weather.cshtml.cs",
+              "ToolTip": "C:\\Users\\nejit\\OneDrive\\Bureau\\Projets\\projet_stm32\\Station-Meteo_STM32-MQTT-Web\\Serveur Web\\Neji_Meteo\\Neji_Meteo\\Pages\\Weather.cshtml.cs",
+              "RelativeToolTip": "Neji_Meteo\\Pages\\Weather.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T18:26:47.16Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
